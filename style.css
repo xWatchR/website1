@@ -8,10 +8,18 @@ html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
+	background-color: #373755;
 }
 a {
 	text-decoration: none;
+	color: white;
 }
+a:hover {
+	color: crimson;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+
 .container {
 	min-height: 100vh;
 	width: 100%;
@@ -25,7 +33,7 @@ img {
 	object-fit: cover;
 }
 p {
-	color: black;
+	color: rgb(194, 194, 194);
 	font-size: 1.4rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
@@ -65,10 +73,10 @@ p {
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: white;
+	color: crimson;
 }
 .brand h1 span {
-	color: crimson;
+	color: white;
 }
 
 /* Header section */
@@ -200,7 +208,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(./img/asol1.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -214,7 +222,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: 0.7;
+	opacity: 0.5;
 	z-index: -1;
 }
 #hero .hero {
@@ -389,7 +397,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.7;
+	opacity: 0.1;
 }
 #projects .project-img img {
 	transition: 0.3s ease transform;
